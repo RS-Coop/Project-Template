@@ -1,0 +1,14 @@
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python
+  - pytorch
+  - cudatoolkit
+  - pyyaml
+  - pip
+  - pip:
+    - torch_tb_profiler
+    - lightning
+    - torchmetrics
